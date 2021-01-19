@@ -37,7 +37,7 @@ for ($i=0; $i < count($request->email) ; $i++) {
         
     }
         return response()->json([
-            'message'=>'email sent'
+            'message' => 'email sent'
         ], 200);
 
     }catch(\Exception $e){
